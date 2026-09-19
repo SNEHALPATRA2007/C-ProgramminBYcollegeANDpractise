@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int num, sum, rem, const=0, digit;
+    printf("Enter the number");
+    scanf("%d", &digit);
+    while(num!=0)
+    {
+        rem=num%10;
+        sum=sum+rem;
+        rem=num/10;
+        if(rem=digit)
+        count++;
+    }
+    printf("THE SUM OF all THE DIIGTS %d OF THE NUMBER IS %d",sum,temp);
+    printf("In digit %d times in %d" ,sum ,count);
+    return 0;
+}
