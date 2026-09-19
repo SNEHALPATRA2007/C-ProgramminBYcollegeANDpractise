@@ -1,0 +1,23 @@
+//CALCULATION OF SIMPLE INTEREST
+#include <stdio.h>
+
+int main()
+{
+    int p, n;
+    float r, si;
+
+    printf("Enter a value for p: ");
+    scanf("%d", &p);
+
+    printf("Enter a value for r: ");
+    scanf("%f", &r);
+
+    printf("Enter a value for n: ");
+    scanf("%d", &n);
+
+    si = (p*n*r) / 100;
+
+    printf("Simple Interest = %.2f\n", si);
+
+    return 0;
+}
